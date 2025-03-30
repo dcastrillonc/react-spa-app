@@ -1,27 +1,27 @@
 # react-spa-app
-Solución desarrollo frontend de la prueba técnica.
+Solución al punto de desarrollo frontend de la prueba técnica por Daniela Castrillón.
 
 Este es un proyecto de SPA (Single Page Application) desarrollado con React.js que consume la API pública JSONPlaceholder y muestra una lista de publicaciones, las cuales se pueden filtrar por título en tiempo real.
 
-# Detalles de instalación y configuración antes de ejecutar el proyecto
+## Detalles de instalación y configuración antes de ejecutar el proyecto
 
-Para ejecutar este poryecto es necesario tener instalado Node.js y npm (Node Package Manager).
+Para ejecutar este poryecto es necesario tener instalado `Node.js` y `npm (Node Package Manager)`.
 
 - Node.js: [Descargar Node.js](https://nodejs.org/)
 - npm: Se instala automáticamente con Node.js
 
-# Instrucciones para ejecutar el proyecto
+## Instrucciones para ejecutar el proyecto
 
 Seguir los siguientes pasos para ejecutar el proyecto en una máquina local.
 
-1. Clonar el repositorio 
+**1. Clonar el repositorio**
 
-Clonar el repositorio en la máquina local utilizando el comando bash git clone https://github.com/tu-usuario/react-spa-app.git o usando GitHub Desktop.
+Clonar el repositorio en la máquina local utilizando el comando `git clone https://github.com/tu-usuario/react-spa-app.git` o usando `GitHub Desktop`.
 
-2. Instalar las dependencias
+**2. Instalar las dependencias**
 
-Dirigirse a la carpeta del proyecto cd react-spa-app y ejecutar el comando npm install para instalar las dependencias necesarias.
+Dirigirse a la carpeta del proyecto `cd react-spa-app` y ejecutar el comando `npm install` para instalar las dependencias necesarias.
 
-3. Ejecutar la aplicación
+**3. Ejecutar la aplicación**
 
-Usar el comando npm start, lo que iniciará el servidor de desarrollo y abrirá la aplicación en una pestaña del navegador en http://localhost:3000
+Usar el comando `npm start`, lo que iniciará el servidor de desarrollo y abrirá la aplicación en una pestaña del navegador en `http://localhost:3000`
