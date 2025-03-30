@@ -16,7 +16,7 @@ Seguir los siguientes pasos para ejecutar el proyecto en una máquina local.
 
 **1. Clonar el repositorio**
 
-Clonar el repositorio en la máquina local utilizando el comando `git clone https://github.com/tu-usuario/react-spa-app.git` o usando `GitHub Desktop`.
+Clonar el repositorio en la máquina local utilizando el comando `git clone https://github.com/dcastrillonc/react-spa-app.git` o usando `GitHub Desktop`.
 
 **2. Instalar las dependencias**
 
