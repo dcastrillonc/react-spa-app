@@ -24,8 +24,10 @@ Dirigirse a la carpeta del proyecto `cd react-spa-app` y ejecutar el comando `np
 
 **3. Ejecutar la aplicación**
 
-Usar el comando `npm start`, lo que iniciará el servidor de desarrollo y abrirá la aplicación en una pestaña del navegador en `http://localhost:3000`
+Usar el comando `npm start`, lo que iniciará el servidor de desarrollo y abrirá la aplicación en una pestaña del navegador en `http://localhost:3000`.
 
 ## Vulnerabilidades y advertencias
 
-Durante la instalación pueden aparecer advertencias de vulnerabilidades en las dependencias. Recomiendo ejecutar el siguiente comando `npm audit fix` para intentar solucionar automáticamente algunas de ellas. Si las vulnerabilidades persisten, se puede revisar más detalles con el comando `npm audit`.
+Durante la instalación pueden aparecer advertencias de vulnerabilidades en las dependencias. 
+
+Recomiendo ejecutar el siguiente comando `npm audit fix` para intentar solucionar automáticamente algunas de ellas. Si las vulnerabilidades persisten, se puede revisar a más detalles con el comando `npm audit`.
