@@ -5,14 +5,14 @@ import PostList from './containers/PostList';
 //Componente principal o raíz de la aplicación
 const App = () => {
   return (
-    <div className="App">
+    <div className="App bg-gray-100 min-h-screen">
       {/* Encabezado de la aplicación */}
-      <header className="App-header">
+      <header className="App-header bg-blue-600 text-white py-4">
         {/* Título principal de la página */}
-        <h1 className="display-4">Lista de publicaciones</h1>
+        <h1 className="text-4xl font-semibold text-center">Lista de publicaciones</h1>
       </header>
       {/* Contenedor principal del contenido */}
-      <main className="container py-5">
+      <main className="container mx-auto py-8 px-4">
         {/* Renderizar el componente PostList que maneja la lógica y muestras las publicaciones */}
         <PostList/>
       </main>

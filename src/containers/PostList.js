@@ -44,16 +44,18 @@ const PostList = () => {
       {/*Campo de búsqueda para filtrar las publicaciones por título en tiempo real*/}
       <input
         type="text"
-        className="form-control mb-4 shadow-sm"
-        placeholder="Filtrar por título..."
+        className="w-full p-3 mb-6 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Filtrar por título"
         value={searchTerm}
         onChange={handleSearch} //Llamar a la función cuando se escriba
       />
       {/*Muestras las publicaciones filtradas*/}
-      {filteredPosts.map(post => (
-        //Renderizar cada publicación
-        <PostCard key={post.id} post={post} />
+      <div className="space-y-6">
+        {filteredPosts.map(post => (
+          //Renderizar cada publicación
+          <PostCard key={post.id} post={post} />
       ))}
+      </div>
     </div>
   );
 };

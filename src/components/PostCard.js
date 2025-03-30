@@ -4,12 +4,12 @@ import React from 'react';
 const PostCard = ({ post }) => {
   return (
     //Contenedor principal
-    <div className="card mb-3 shadow-lg rounded-lg">
+    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-30">
       <div className="card-body">
         {/* Título de la publicación */}
-        <h3 className="card-title text-primary">{post.title}</h3>
+        <h3 className="text-xl font-semibold text-blue-600 mb-4">{post.title}</h3>
         {/* Descripción de la publicación */}
-        <p className="card-text">{post.body}</p>
+        <p className="text-gray-700">{post.body}</p>
       </div>
     </div>
   );
