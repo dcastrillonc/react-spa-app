@@ -5,7 +5,7 @@ Este es un proyecto de SPA (Single Page Application) desarrollado con React.js q
 
 ## Detalles de instalación y configuración antes de ejecutar el proyecto
 
-Para ejecutar este poryecto es necesario tener instalado `Node.js` y `npm (Node Package Manager)`.
+Para ejecutar este proyecto es necesario tener instalado `Node.js` y `npm (Node Package Manager)`.
 
 - Node.js: [Descargar Node.js](https://nodejs.org/)
 - npm: Se instala automáticamente con Node.js
