@@ -3,6 +3,8 @@ Solución al punto de desarrollo frontend de la prueba técnica por Daniela Cast
 
 Este es un proyecto de SPA (Single Page Application) desarrollado con React.js que consume la API pública JSONPlaceholder y muestra una lista de publicaciones, las cuales se pueden filtrar por título en tiempo real.
 
+![react-spa-app](https://github.com/user-attachments/assets/2c56aae8-8ba3-43a7-8fc8-6b4b01773794)
+
 ## Detalles de instalación y configuración antes de ejecutar el proyecto
 
 Para ejecutar este proyecto es necesario tener instalado `Node.js` y `npm (Node Package Manager)`.
